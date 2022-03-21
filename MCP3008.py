@@ -1,3 +1,7 @@
+#
+# to use MCP3008 module, please enable SPI bus by
+# following https://tutorials-raspberrypi.com/mcp3008-read-out-analog-signals-on-the-raspberry-pi/
+#
 from spidev import SpiDev
  
 class MCP3008:
